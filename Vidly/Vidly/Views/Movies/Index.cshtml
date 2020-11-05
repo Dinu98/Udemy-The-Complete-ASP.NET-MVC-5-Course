@@ -1,0 +1,25 @@
+﻿@model Vidly.ViewModels.MoviesAndCustomersViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{ 
+    var className = Model.Movies.Count > 5 ? "Movies" : "Movie";
+}
+
+<h2 class="@className">List of Movies</h2>
+
+@if (Model.Movies.Count == 0)
+{
+    <text>No movies to display</text>
+}
+else
+{
+    <ul>
+        @foreach (var movie in Model.Movies)
+        {
+            <li>@movie.Name</li>
+        }
+    </ul>
+}
+
