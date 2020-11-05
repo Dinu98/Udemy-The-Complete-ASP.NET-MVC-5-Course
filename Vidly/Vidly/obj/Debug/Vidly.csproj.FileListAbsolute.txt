@@ -77,3 +77,7 @@ C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Co
 C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\bin\EntityFramework.dll
+C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\bin\EntityFramework.xml
+C:\Users\user\Desktop\Courses&Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\bin\EntityFramework.SqlServer.xml
