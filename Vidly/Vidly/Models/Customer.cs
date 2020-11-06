@@ -10,10 +10,11 @@ namespace Vidly.Models
     public class Customer
     {
         public int Id { get; set; }
-        [Required]
-        [StringLength(255)]
+        [Required, StringLength(255)]
         public String Name { get; set; }
+        [Required]
         public bool IsSubscribedToNewsletter { get; set; }
+        [Required]
         public MembershipType MembershipType { get; set; }
         public byte MembershipTypeId { get; set; }
         public DateTime? Birthday { get; set; }

@@ -3,7 +3,7 @@
     ViewBag.Title = "Random";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@{ 
+@{
     var className = Model.Movies.Count > 5 ? "Movies" : "Movie";
 }
 
@@ -15,11 +15,21 @@
 }
 else
 {
-    <ul>
-        @foreach (var movie in Model.Movies)
-        {
-            <li>@movie.Name</li>
-        }
-    </ul>
+    <table class="table table-bordered table-hover">
+        <thead>
+        <th>Customer</th>
+        <th>Discount Rate</th>
+        </thead>
+
+        <tbody>
+            @foreach (var movie in Model.Movies)
+            {
+                <tr>
+                    <td><a href="/movies/edit/@movie.Id">@movie.Name</a></td>
+                    <td>@movie.Genre.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
