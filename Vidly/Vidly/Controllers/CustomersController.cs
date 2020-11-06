@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -34,7 +35,7 @@ namespace Vidly.Controllers
         [Route("customers")]
         public ActionResult Index()
         {
-            var customers = db.Customers.ToList();
+            var customers = db.Customers.Include("MembershipType").ToList();
             var viewModel = new MoviesAndCustomersViewModel
             {
                 Customers = customers
