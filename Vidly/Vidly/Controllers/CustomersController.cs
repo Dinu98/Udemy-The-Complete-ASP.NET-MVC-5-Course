@@ -35,7 +35,7 @@ namespace Vidly.Controllers
         [Route("customers")]
         public ActionResult Index()
         {
-            var customers = db.Customers.Include("MembershipType").ToList();
+            var customers = db.Customers.Include(c => c.MembershipType).ToList();
             var viewModel = new MoviesAndCustomersViewModel
             {
                 Customers = customers
@@ -47,7 +47,7 @@ namespace Vidly.Controllers
 
         public ActionResult Edit(int id)
         {
-            var customer = db.Customers.Find(id);
+            var customer = db.Customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);
 
             if (customer != null)
             {

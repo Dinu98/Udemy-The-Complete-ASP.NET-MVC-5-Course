@@ -161,6 +161,10 @@
     <Compile Include="Migrations\202011060055305_UpdatingMembershiptypes.designer.cs">
       <DependentUpon>202011060055305_UpdatingMembershiptypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011060101106_AddedBirthdayToCustomer.cs" />
+    <Compile Include="Migrations\202011060101106_AddedBirthdayToCustomer.designer.cs">
+      <DependentUpon>202011060101106_AddedBirthdayToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Dbctx.cs" />
@@ -247,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011060055305_UpdatingMembershiptypes.resx">
       <DependentUpon>202011060055305_UpdatingMembershiptypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011060101106_AddedBirthdayToCustomer.resx">
+      <DependentUpon>202011060101106_AddedBirthdayToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
