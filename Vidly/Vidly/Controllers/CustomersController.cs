@@ -10,16 +10,31 @@ namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
+        private Dbctx db;
+
+        public CustomersController()
+        {
+            db = new Dbctx();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            db.Dispose();
+        }
+
         public List<Customer> customers = new List<Customer>
             {
                 new Customer {Name = "Customer1", Id = 1},
                 new Customer {Name = "Customer2", Id = 2}
             };
 
+
+
         // GET: Customers
         [Route("customers")]
         public ActionResult Index()
         {
+            var customers = db.Customers.ToList();
             var viewModel = new MoviesAndCustomersViewModel
             {
                 Customers = customers
@@ -31,7 +46,7 @@ namespace Vidly.Controllers
 
         public ActionResult Edit(int id)
         {
-            var customer = customers.Find(c => c.Id == id);
+            var customer = db.Customers.Find(id);
 
             if (customer != null)
             {
