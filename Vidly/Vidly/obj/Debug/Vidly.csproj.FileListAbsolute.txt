@@ -172,3 +172,5 @@ C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Co
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubsscribedToCustomer.resources
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedMembershipType.resources
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedNameToMembership.resources
+C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatingMembershiptypes.resources

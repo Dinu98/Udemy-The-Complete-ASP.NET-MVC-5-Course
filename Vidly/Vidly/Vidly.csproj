@@ -153,6 +153,14 @@
     <Compile Include="Migrations\202011060040371_PopulateMembershipTypes.designer.cs">
       <DependentUpon>202011060040371_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011060052374_AddedNameToMembership.cs" />
+    <Compile Include="Migrations\202011060052374_AddedNameToMembership.designer.cs">
+      <DependentUpon>202011060052374_AddedNameToMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202011060055305_UpdatingMembershiptypes.cs" />
+    <Compile Include="Migrations\202011060055305_UpdatingMembershiptypes.designer.cs">
+      <DependentUpon>202011060055305_UpdatingMembershiptypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Dbctx.cs" />
@@ -233,6 +241,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011060040371_PopulateMembershipTypes.resx">
       <DependentUpon>202011060040371_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011060052374_AddedNameToMembership.resx">
+      <DependentUpon>202011060052374_AddedNameToMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011060055305_UpdatingMembershiptypes.resx">
+      <DependentUpon>202011060055305_UpdatingMembershiptypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
