@@ -149,6 +149,10 @@
     <Compile Include="Migrations\202011060024127_AddedMembershipType.designer.cs">
       <DependentUpon>202011060024127_AddedMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011060040371_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\202011060040371_PopulateMembershipTypes.designer.cs">
+      <DependentUpon>202011060040371_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Dbctx.cs" />
@@ -226,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011060024127_AddedMembershipType.resx">
       <DependentUpon>202011060024127_AddedMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011060040371_PopulateMembershipTypes.resx">
+      <DependentUpon>202011060040371_PopulateMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
