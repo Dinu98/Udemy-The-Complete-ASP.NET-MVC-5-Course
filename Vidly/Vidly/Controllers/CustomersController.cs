@@ -23,14 +23,6 @@ namespace Vidly.Controllers
             db.Dispose();
         }
 
-        public List<Customer> customers = new List<Customer>
-            {
-                new Customer {Name = "Customer1", Id = 1},
-                new Customer {Name = "Customer2", Id = 2}
-            };
-
-
-
         // GET: Customers
         [Route("customers")]
         public ActionResult Index()

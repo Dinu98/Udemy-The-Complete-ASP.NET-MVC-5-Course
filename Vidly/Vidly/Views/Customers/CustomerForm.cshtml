@@ -3,8 +3,20 @@
     ViewBag.Title = "New";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@{ 
+    String action;
 
-<h2>New Customer</h2>
+    if (Model.Customer == null)
+    {
+        action = "New";
+    }
+    else
+    {
+        action = "Update";
+    }
+}
+
+<h2>@action Customer</h2>
 
 @using (Html.BeginForm("Save", "Customers"))
 {
