@@ -11,12 +11,22 @@
     <text>No customers to display</text>
 }
 else
-{
-    <ul>
-        @foreach (var customer in Model.Customers)
-        {
-            <li><a href="/customers/edit/@customer.Id">@customer.Name</a></li>
-        }
-    </ul>
+{   
+    <table class="table table-bordered table-hover">
+        <thead>
+            <th>Customer</th>
+            <th>Discount Rate</th>
+        </thead>
+
+            <tbody>
+                @foreach (var customer in Model.Customers)
+                {
+                <tr>
+                    <td><a href="/customers/edit/@customer.Id">@customer.Name</a></td>
+                </tr>
+                }
+            </tbody>
+    </table>
+
 }
 
