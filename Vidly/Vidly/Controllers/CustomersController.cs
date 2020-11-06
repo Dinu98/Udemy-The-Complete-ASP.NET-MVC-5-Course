@@ -74,8 +74,10 @@ namespace Vidly.Controllers
         [HttpPost]
         public ActionResult Create(Customer customer)
         {
+            db.Customers.Add(customer);
+            db.SaveChanges();
 
-            return View();
+            return RedirectToAction("Index", "Customers");
         }
     }
 }
