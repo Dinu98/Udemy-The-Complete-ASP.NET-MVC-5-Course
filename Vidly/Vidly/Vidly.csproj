@@ -173,6 +173,10 @@
     <Compile Include="Migrations\202011061958168_PopulateGenres.designer.cs">
       <DependentUpon>202011061958168_PopulateGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202011082249542_AddedStockToMovies.cs" />
+    <Compile Include="Migrations\202011082249542_AddedStockToMovies.designer.cs">
+      <DependentUpon>202011082249542_AddedStockToMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Dbctx.cs" />
@@ -275,6 +279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202011061958168_PopulateGenres.resx">
       <DependentUpon>202011061958168_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202011082249542_AddedStockToMovies.resx">
+      <DependentUpon>202011082249542_AddedStockToMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

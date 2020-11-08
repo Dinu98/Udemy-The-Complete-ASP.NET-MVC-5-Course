@@ -177,3 +177,4 @@ C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Co
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedBirthdayToCustomer.resources
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedGenre.resources
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
+C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedStockToMovies.resources
