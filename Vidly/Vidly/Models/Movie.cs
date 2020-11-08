@@ -15,6 +15,6 @@ namespace Vidly.Models
         [Required, Display(Name = "Category")]
         public byte GenreId { get; set; }
         [Required,Range(1, int.MaxValue, ErrorMessage = "This number should be greater than 0")]
-        public int Stock { get; set; }
+        public int? Stock { get; set; }
     }
 }
