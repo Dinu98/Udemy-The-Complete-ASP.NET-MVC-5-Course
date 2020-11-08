@@ -12,6 +12,7 @@ namespace Vidly.Models
         [Required, StringLength(255)]
         public String Name { get; set; }
         public Genre Genre { get; set; }
+        [Required, Display(Name = "Category")]
         public byte GenreId { get; set; }
     }
 }
