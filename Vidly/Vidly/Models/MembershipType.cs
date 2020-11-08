@@ -15,6 +15,8 @@ namespace Vidly.Models
         [StringLength(255)]
         [Required]
         public String Name { get; set; }
+
+        public static readonly byte Pay_As_You_Go = 1;
     }
 
 }
