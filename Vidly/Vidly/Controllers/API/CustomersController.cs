@@ -17,9 +17,9 @@ namespace Vidly.Controllers.API
         {
             db = new Dbctx();
         }
-        public IEnumerable<CustomerDto> GetCustomers()
+        public IHttpActionResult GetCustomers()
         {
-            return db.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+            return Ok(db.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>));
         }
 
         public IHttpActionResult GetCustomer(int id)
@@ -48,7 +48,7 @@ namespace Vidly.Controllers.API
         }
 
         [HttpPut]
-        public void UpdateCustomer(int id, CustomerDto customerdto)
+        public IHttpActionResult UpdateCustomer(int id, CustomerDto customerdto)
         {
             if (!ModelState.IsValid)
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
@@ -61,10 +61,12 @@ namespace Vidly.Controllers.API
             Mapper.Map(customerdto, customerInDb);
 
             db.SaveChanges();
+
+            return Created(new Uri(Request.RequestUri + "/" + customerInDb.Id), customerdto);
         }
 
         [HttpDelete]
-        public void DeleteCustomer(int id)
+        public IHttpActionResult DeleteCustomer(int id)
         {
             var customerInDb = db.Customers.SingleOrDefault(c => c.Id == id);
 
@@ -74,6 +76,8 @@ namespace Vidly.Controllers.API
             db.Customers.Remove(customerInDb);
 
             db.SaveChanges();
+
+            return Ok();
         }
 
 
