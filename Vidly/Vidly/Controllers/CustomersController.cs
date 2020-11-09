@@ -27,14 +27,7 @@ namespace Vidly.Controllers
         [Route("customers")]
         public ActionResult Index()
         {
-            var customers = db.Customers.Include(c => c.MembershipType).ToList();
-            var viewModel = new MoviesAndCustomersViewModel
-            {
-                Customers = customers
-            };
-
-
-            return View(viewModel);
+            return View();
         }
 
         public ActionResult Details(int id)
