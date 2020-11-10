@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(WebApplication12.Startup))]
-namespace WebApplication12
+[assembly: OwinStartupAttribute(typeof(Vidly.Startup))]
+namespace Vidly
 {
     public partial class Startup
     {

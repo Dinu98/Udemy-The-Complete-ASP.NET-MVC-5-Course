@@ -187,51 +187,60 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011052353214_InitialModel.cs" />
-    <Compile Include="Migrations\202011052353214_InitialModel.designer.cs">
+    <Compile Include="Migrations\VidlyUsers\202011102247524_InitialModel.cs" />
+    <Compile Include="Migrations\VidlyUsers\202011102247524_InitialModel.designer.cs">
+      <DependentUpon>202011102247524_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\VidlyUsers\202011102253475_SeedUsers.cs" />
+    <Compile Include="Migrations\VidlyUsers\202011102253475_SeedUsers.designer.cs">
+      <DependentUpon>202011102253475_SeedUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\VidlyUsers\Configuration.cs" />
+    <Compile Include="Migrations\VidlyContent\202011052353214_InitialModel.cs" />
+    <Compile Include="Migrations\VidlyContent\202011052353214_InitialModel.designer.cs">
       <DependentUpon>202011052353214_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011060009388_AddedAttributesToCustomerName.cs" />
-    <Compile Include="Migrations\202011060009388_AddedAttributesToCustomerName.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011060009388_AddedAttributesToCustomerName.cs" />
+    <Compile Include="Migrations\VidlyContent\202011060009388_AddedAttributesToCustomerName.designer.cs">
       <DependentUpon>202011060009388_AddedAttributesToCustomerName.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011060020288_AddIsSubsscribedToCustomer.cs" />
-    <Compile Include="Migrations\202011060020288_AddIsSubsscribedToCustomer.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011060020288_AddIsSubsscribedToCustomer.cs" />
+    <Compile Include="Migrations\VidlyContent\202011060020288_AddIsSubsscribedToCustomer.designer.cs">
       <DependentUpon>202011060020288_AddIsSubsscribedToCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011060024127_AddedMembershipType.cs" />
-    <Compile Include="Migrations\202011060024127_AddedMembershipType.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011060024127_AddedMembershipType.cs" />
+    <Compile Include="Migrations\VidlyContent\202011060024127_AddedMembershipType.designer.cs">
       <DependentUpon>202011060024127_AddedMembershipType.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011060040371_PopulateMembershipTypes.cs" />
-    <Compile Include="Migrations\202011060040371_PopulateMembershipTypes.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011060040371_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\VidlyContent\202011060040371_PopulateMembershipTypes.designer.cs">
       <DependentUpon>202011060040371_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011060052374_AddedNameToMembership.cs" />
-    <Compile Include="Migrations\202011060052374_AddedNameToMembership.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011060052374_AddedNameToMembership.cs" />
+    <Compile Include="Migrations\VidlyContent\202011060052374_AddedNameToMembership.designer.cs">
       <DependentUpon>202011060052374_AddedNameToMembership.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011060055305_UpdatingMembershiptypes.cs" />
-    <Compile Include="Migrations\202011060055305_UpdatingMembershiptypes.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011060055305_UpdatingMembershiptypes.cs" />
+    <Compile Include="Migrations\VidlyContent\202011060055305_UpdatingMembershiptypes.designer.cs">
       <DependentUpon>202011060055305_UpdatingMembershiptypes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011060101106_AddedBirthdayToCustomer.cs" />
-    <Compile Include="Migrations\202011060101106_AddedBirthdayToCustomer.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011060101106_AddedBirthdayToCustomer.cs" />
+    <Compile Include="Migrations\VidlyContent\202011060101106_AddedBirthdayToCustomer.designer.cs">
       <DependentUpon>202011060101106_AddedBirthdayToCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011061956224_AddedGenre.cs" />
-    <Compile Include="Migrations\202011061956224_AddedGenre.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011061956224_AddedGenre.cs" />
+    <Compile Include="Migrations\VidlyContent\202011061956224_AddedGenre.designer.cs">
       <DependentUpon>202011061956224_AddedGenre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011061958168_PopulateGenres.cs" />
-    <Compile Include="Migrations\202011061958168_PopulateGenres.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011061958168_PopulateGenres.cs" />
+    <Compile Include="Migrations\VidlyContent\202011061958168_PopulateGenres.designer.cs">
       <DependentUpon>202011061958168_PopulateGenres.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202011082249542_AddedStockToMovies.cs" />
-    <Compile Include="Migrations\202011082249542_AddedStockToMovies.designer.cs">
+    <Compile Include="Migrations\VidlyContent\202011082249542_AddedStockToMovies.cs" />
+    <Compile Include="Migrations\VidlyContent\202011082249542_AddedStockToMovies.designer.cs">
       <DependentUpon>202011082249542_AddedStockToMovies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\VidlyContent\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Dbctx.cs" />
@@ -503,38 +512,44 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202011052353214_InitialModel.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011052353214_InitialModel.resx">
       <DependentUpon>202011052353214_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011060009388_AddedAttributesToCustomerName.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011060009388_AddedAttributesToCustomerName.resx">
       <DependentUpon>202011060009388_AddedAttributesToCustomerName.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011060020288_AddIsSubsscribedToCustomer.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011060020288_AddIsSubsscribedToCustomer.resx">
       <DependentUpon>202011060020288_AddIsSubsscribedToCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011060024127_AddedMembershipType.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011060024127_AddedMembershipType.resx">
       <DependentUpon>202011060024127_AddedMembershipType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011060040371_PopulateMembershipTypes.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011060040371_PopulateMembershipTypes.resx">
       <DependentUpon>202011060040371_PopulateMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011060052374_AddedNameToMembership.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011060052374_AddedNameToMembership.resx">
       <DependentUpon>202011060052374_AddedNameToMembership.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011060055305_UpdatingMembershiptypes.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011060055305_UpdatingMembershiptypes.resx">
       <DependentUpon>202011060055305_UpdatingMembershiptypes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011060101106_AddedBirthdayToCustomer.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011060101106_AddedBirthdayToCustomer.resx">
       <DependentUpon>202011060101106_AddedBirthdayToCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011061956224_AddedGenre.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011061956224_AddedGenre.resx">
       <DependentUpon>202011061956224_AddedGenre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011061958168_PopulateGenres.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011061958168_PopulateGenres.resx">
       <DependentUpon>202011061958168_PopulateGenres.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011082249542_AddedStockToMovies.resx">
+    <EmbeddedResource Include="Migrations\VidlyContent\202011082249542_AddedStockToMovies.resx">
       <DependentUpon>202011082249542_AddedStockToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\VidlyUsers\202011102247524_InitialModel.resx">
+      <DependentUpon>202011102247524_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\VidlyUsers\202011102253475_SeedUsers.resx">
+      <DependentUpon>202011102253475_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
