@@ -1,0 +1,42 @@
+﻿@model Vidly.ViewModels.MoviesAndCustomersViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var className = Model.Movies.Count > 5 ? "Movies" : "Movie";
+}
+
+<h2 class="@className">List of Movies</h2>
+
+<table id="movies" class="table table-bordered table-hover">
+    <thead>
+        <th>Customer</th>
+        <th>Discount Rate</th>
+    </thead>
+
+    <tbody></tbody>
+</table>
+
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+           var table = $("#movies").DataTable({
+                ajax: {
+                    url: "api/movies",
+                    dataSrc:""
+                },
+                columns: [
+                    {
+                        data: "name"
+                    },
+                    {
+                        data: "genre.name"
+                    }
+                ]
+            });
+        })
+    </script>
+}
+
