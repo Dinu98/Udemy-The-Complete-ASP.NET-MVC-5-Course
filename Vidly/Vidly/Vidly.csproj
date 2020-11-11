@@ -195,6 +195,10 @@
     <Compile Include="Migrations\VidlyUsers\202011102253475_SeedUsers.designer.cs">
       <DependentUpon>202011102253475_SeedUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\VidlyUsers\202011102357290_AddedDrivingLicense.cs" />
+    <Compile Include="Migrations\VidlyUsers\202011102357290_AddedDrivingLicense.designer.cs">
+      <DependentUpon>202011102357290_AddedDrivingLicense.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\VidlyUsers\Configuration.cs" />
     <Compile Include="Migrations\VidlyContent\202011052353214_InitialModel.cs" />
     <Compile Include="Migrations\VidlyContent\202011052353214_InitialModel.designer.cs">
@@ -552,6 +556,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\VidlyUsers\202011102253475_SeedUsers.resx">
       <DependentUpon>202011102253475_SeedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\VidlyUsers\202011102357290_AddedDrivingLicense.resx">
+      <DependentUpon>202011102357290_AddedDrivingLicense.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

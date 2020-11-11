@@ -207,3 +207,4 @@ C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Co
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.VidlyUsers.InitialModel.resources
 C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.VidlyUsers.SeedUsers.resources
+C:\Users\user\Desktop\Courses-Projects\Udemy\Udemy-The-Complete-ASP.NET-MVC-5-Course\Vidly\Vidly\obj\Debug\Vidly.Migrations.VidlyUsers.AddedDrivingLicense.resources
